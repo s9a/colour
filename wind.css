@@ -1,0 +1,19 @@
+::selection { background: #ec0 }
+:any-link { color: darkblue }
+:root { 
+  background: skyblue;
+  color: midnightblue;
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    background: powderblue;
+    color: black;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background: deepskyblue;
+  }
+}
